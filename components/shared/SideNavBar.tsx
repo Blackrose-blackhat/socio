@@ -33,7 +33,7 @@ const SideNavBar = () => {
               <Link href={link.route} key={link.label} className="text-center">
                 <Button
                   variant="link"
-                  className={`hover:bg-muted ${
+                  className={`hover:bg-muted text-2xl ${
                     isActive && " border bg-muted     "
                   }`}
                 >
